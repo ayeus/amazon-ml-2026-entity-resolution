@@ -1,0 +1,20 @@
+# Track only the project itself. The competition dataset, augmented data, intermediate
+# work directories and per-submission outputs stay local (~16 GB, not redistributable / too large).
+/*
+!/.gitignore
+!/README.md
+!/code/
+!/diagnostics/
+!/final_models/
+!/blocking_recall_recovery_92.py
+!/amazon_ml_entity_resolution_audit_preprocessing (4).ipynb
+
+/diagnostics/HANDOFF.md
+/diagnostics/REPORT.md
+/diagnostics/01_final_push.md
+
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
